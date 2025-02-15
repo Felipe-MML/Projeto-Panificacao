@@ -162,7 +162,7 @@ def visualizar_historico():
     if dados:
         print('\n === Histórico de Compras ===')
         for i, item in enumerate(dados, 1):
-            print(f'Produto: {item['nome']} | Total: {item['total']} | Data e hora da compra: {item['dataEHora']}')
+            print(f"Produto: {item['nome']} | Total: {item['total']} | Data e hora da compra: {item['dataEHora']}")
     else:
         print('Nada registrado no histórico :()')
 
